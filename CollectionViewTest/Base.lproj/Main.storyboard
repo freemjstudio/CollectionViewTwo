@@ -31,17 +31,12 @@
                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qco-Df-H3w">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qco-Df-H3w">
+                                            <rect key="frame" x="-163" y="-309" width="375" height="667"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
                                 </view>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Qco-Df-H3w" secondAttribute="bottom" id="SqL-Oy-NIZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="Qco-Df-H3w" secondAttribute="trailing" id="oOA-rJ-5DT"/>
-                                    <constraint firstItem="Qco-Df-H3w" firstAttribute="leading" secondItem="sNg-Ru-wi0" secondAttribute="leading" id="r5c-qq-6uc"/>
-                                    <constraint firstItem="Qco-Df-H3w" firstAttribute="top" secondItem="sNg-Ru-wi0" secondAttribute="top" id="tP8-g2-9vR"/>
-                                </constraints>
                             </collectionViewCell>
                         </cells>
                         <connections>
